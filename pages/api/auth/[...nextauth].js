@@ -12,8 +12,8 @@ async function isAdminEmail(email){
   return !! foundAdmin;
 }
 
-
 export const authOptions = {
+    secret: process.env.SECRET,
     providers: [
       GoogleProvider({
         clientId: process.env.GOOGLE_ID,
