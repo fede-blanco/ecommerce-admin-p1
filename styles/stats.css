@@ -1,0 +1,28 @@
+
+.tile {
+  @apply bg-white shadow-md p-2 rounded-lg text-primary text-center
+}
+
+.tile-header {
+  @apply uppercase text-gray-500 font-bold text-xs
+}
+
+.tile-number {
+  @apply text-3xl mt-2 font-semibold
+}
+
+.tile-desc {
+  @apply text-xs text-gray-400  
+}
+
+.h3-title {
+  @apply uppercase text-gray-500 font-bold py-2 pl-4
+}
+
+.tiles-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4
+}
+
+.section-title {
+  @apply text-3xl text-center md:text-left
+}
